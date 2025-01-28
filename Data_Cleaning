@@ -1,0 +1,14 @@
+import pandas as pd
+from datetime import datetime
+
+# Load EMS data
+data = pd.read_csv('data/raw_data.csv')
+
+# Parse timestamps and calculate time differences
+data['ResponseTime'] = pd.to_datetime(data['OnSceneTime']) - pd.to_datetime(data['CallReceivedTime'])
+data['TransportTime'] = pd.to_datetime(data['HospitalArrivalTime']) - pd.to_datetime(data['OnSceneTime'])
+
+# Flag delayed responses (> 10 mins)
+data['DelayedResponse'] = data['ResponseTime'].apply(lambda x: x.total_seconds() > 600)
+
+data.head()
