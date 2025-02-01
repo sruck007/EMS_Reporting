@@ -1,4 +1,4 @@
-# EMS Operational and Financial Analytics Project
+# EMS Analytics Project
 
 This project demonstrates the analysis of Emergency Medical Services (EMS) operational efficiency, financial performance, and coding accuracy using Python, SQL, and Tableau.
 
