@@ -1,57 +1,60 @@
 # EMS Analytics Project
+📌 Project Overview
+This project analyzes Emergency Medical Services (EMS) operations, focusing on response efficiency, financial performance, and service-level trends. Using SQL, Python, and Tableau, the analysis provides data-driven insights into key performance indicators (KPIs) such as response times, transport times, reimbursement trends, and service utilization.
 
-This project demonstrates the analysis of Emergency Medical Services (EMS) operational efficiency, financial performance, and coding accuracy using Python, SQL, and Tableau.
+The goal is to simulate how EMS data can be used to optimize resources, improve service delivery, and support decision-making—especially relevant given the Fire Department’s takeover of EMS operations.
 
-## Project Overview
+✅ Key Sections & Approach
+1️⃣ Data Collection & Cleaning (Python & SQL)
+Structured EMS incident data, payer reimbursement data, and ICD-10/APC mappings.
+Used SQL joins to integrate datasets, ensuring accuracy & completeness.
+Pre-processed timestamps for calculating response & transport times.
+2️⃣ KPI Analysis & Performance Metrics (SQL & Python)
+📊 Operational Metrics:
+✔ Average Response Time → Time from CallReceived → OnScene.
+✔ Transport Time → Time from OnScene → HospitalArrival.
+✔ Incident Density Mapping → EMS call locations by latitude/longitude.
+✔ Service Level Analysis → Mapping ICD-10 codes to EMS transport type.
 
-This project is divided into six sections:
+💰 Financial Metrics:
+✔ Reimbursement Trends by Payer Type (Medicare, Medicaid, Private, Self-Pay).
+✔ Total Reimbursement by Month → Identifies fluctuations in EMS billing.
+✔ APC Group Analysis → Connects ICD-10 codes to reimbursement patterns.
 
-1. **Data Cleaning and Transformation**:
-   - Use Python to clean EMS raw data, calculate KPIs, and prepare for analysis.
-   
-2. **KPI Calculations**:
-   - Analyze operational efficiency (response time, transport time) and financial performance (reimbursement and denial rates).
+3️⃣ SQL Queries for KPI & Trend Analysis
+Response vs. Transport Time by Zone (Identifies high-delay areas).
+Reimbursement Trends Over Time (Monthly revenue trends).
+Incident Type by Transport Level (Heat map of service utilization).
+Geospatial Analysis of EMS Responses (Incident density visualization).
+4️⃣ Interactive Tableau Dashboard
+✔ Pie Chart: Insurance Mix Reimbursement (Medicare, Medicaid, Private, Self-Pay).
+✔ Line Chart: Yearly Insurance Reimbursement Trends (by payer type).
+✔ Heat Map: Level of Service Analysis (Transport Type vs. ICD-10 Conditions).
+✔ Bar Chart: EMS Response vs. Transport Time (by Zone).
+✔ Geo Map: Incident Location Response Mapping (Coordinates of EMS incidents).
 
-3. **Statistical Tests**:
-   - Perform a Z-test to compare response times between urban and rural zones.
+📂 Data Sources & Structure
+📌 Data was structured to support easy SQL queries and visual analysis.
 
-4. **ETL Pipeline**:
-   - Build an automated ETL process to extract, clean, and load data into a database.
+Dataset	Description
+EMS_Incident_Data.csv	Incident timestamps, transport type, and service level.
+Payer_Reimbursement_Data.csv	Financial reimbursement details by payer.
+APC_DX_Mapping.csv	Maps ICD-10 codes to APC classifications.
+📌 All datasets were cleaned using Python (Pandas) and stored in SQL for analysis.
 
-5. **Coding System Analysis**:
-   - Analyze ICD-10 codes and APC mapping for reimbursement patterns.
+🛠️ Tools & Technologies Used
+✔ SQL → Used for advanced queries, joins, KPI calculations.
+✔ Python (Pandas, SciPy) → Data cleaning, exploratory analysis, statistical tests.
+✔ Tableau → Created interactive dashboard for EMS insights.
 
-6. **Visualization**:
-   - Create an interactive Tableau dashboard for trends and KPIs.
+🔍 Findings & Key Insights
+📌 🚑 Operational Takeaways:
 
-## Key Metrics and KPIs
+West Zone has the longest transport times, suggesting potential resource inefficiencies.
+Emergency response times vary significantly by zone, with North responding fastest.
+Certain ICD-10 conditions (e.g., Heart Attacks, COPD) require ALS-level transport most frequently.
+📌 💰 Financial Takeaways:
 
-### Operational Metrics:
-- **Average Response Time:** Time from `CallReceived` to `OnScene`.
-- **Transport Time:** Time from `OnScene` to `HospitalArrival`.
-- **Incident Trends:** Volume by time, zone, and service type.
-
-### Financial Metrics:
-- **Reimbursement Rate:** `(AmountReimbursed / ChargesBilled)`.
-- **Denial Rate:** `(DeniedClaims / TotalClaims)`.
-- **APC Group Analysis:** Revenue trends by APC classification.
-
-## Data Sources
-- `raw_data.csv`: Contains timestamps and incident details.
-- `apc_icd_mapping.csv`: Maps ICD-10 codes to APC groups.
-- `payer_reimbursement.csv`: Financial data by payer and claim.
-
-## Tools and Technologies
-- **Python Libraries:**
-  - `pandas`: Data cleaning and KPI calculations.
-  - `sqlalchemy`: Load data into a database.
-  - `scipy.stats`: Perform Z-tests and T-tests.
-  - `matplotlib/seaborn`: Basic visualizations.
-- **SQL**: Advanced queries for KPI and trend analysis.
-- **Tableau**: Visualize trends and create interactive dashboards.
-
-## How to Run
-1. Install dependencies: `pip install -r requirements.txt`
-2. Run Python notebooks in `/notebooks/` for data cleaning, KPI calculations, and ETL.
-3. Execute SQL queries from `/sql/` to analyze grouped metrics.
-4. Open Tableau workbook (`.twbx`) to explore visualizations.
+Private insurance contributes the highest revenue (32.87%), followed by Medicaid (25.30%).
+Reimbursement trends fluctuate seasonally, with spikes in November & January.
+ICD-10 codes linked to higher-level procedures generate higher reimbursement rates.
