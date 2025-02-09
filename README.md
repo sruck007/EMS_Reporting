@@ -62,3 +62,7 @@ Certain ICD-10 conditions (e.g., Heart Attacks, COPD) require ALS-level transpor
 Private insurance contributes the highest revenue (32.87%), followed by Medicaid (25.30%).
 Reimbursement trends fluctuate seasonally, with spikes in November & January.
 ICD-10 codes linked to higher-level procedures generate higher reimbursement rates.
+
+![image](https://github.com/user-attachments/assets/50cb274e-cec2-4408-aa3e-fc6fcbea3b51)
+
+
