@@ -1,0 +1,41 @@
+﻿ProcedureID,HCPCS,HCPCS_Description,APC_Group,Level_of_Service,Transport_Type,ICD10_Code,ICD10_Description
+10001,A0425,"Ground mileage, per statute mile",APC_5001,BLS,Transport,I21.9,Heart Attack
+10002,A0426,ALS assessment,APC_5002,ALS1,No Transport,J44.1,COPD Exacerbation
+10003,A0427,"ALS, emergency transport",APC_5002,ALS1,Emergency,R55,Syncope
+10004,A0428,"BLS, non-emergency",APC_5001,BLS,Non-Emergency,I10,Hypertension
+10005,A0429,"BLS, emergency transport",APC_5001,BLS,Emergency,I21.9,Heart Attack
+10006,A0430,Fixed-wing air ambulance,APC_5061,SCT,Emergency,J44.1,COPD Exacerbation
+10007,A0431,Rotary-wing air ambulance,APC_5061,SCT,Emergency,I10,Hypertension
+10008,A0432,Paramedic intercept (PI) service,APC_5002,PI,No Transport,R55,Syncope
+10009,A0433,ALS 2 emergency transport,APC_5002,ALS2,Emergency,I21.9,Heart Attack
+10010,A0434,Specialty care transport,APC_5061,SCT,Emergency,J44.1,COPD Exacerbation
+10011,A0425,"Ground mileage, per statute mile",APC_5001,BLS,Transport,I10,Hypertension
+10012,A0426,ALS assessment,APC_5002,ALS1,No Transport,I21.9,Heart Attack
+10013,A0427,"ALS, emergency transport",APC_5002,ALS1,Emergency,J44.1,COPD Exacerbation
+10014,A0428,"BLS, non-emergency",APC_5001,BLS,Non-Emergency,R55,Syncope
+10015,A0429,"BLS, emergency transport",APC_5001,BLS,Emergency,I10,Hypertension
+10016,A0430,Fixed-wing air ambulance,APC_5061,SCT,Emergency,I21.9,Heart Attack
+10017,A0431,Rotary-wing air ambulance,APC_5061,SCT,Emergency,J44.1,COPD Exacerbation
+10018,A0432,Paramedic intercept (PI) service,APC_5002,PI,No Transport,R55,Syncope
+10019,A0433,ALS 2 emergency transport,APC_5002,ALS2,Emergency,I10,Hypertension
+10020,A0434,Specialty care transport,APC_5061,SCT,Emergency,I21.9,Heart Attack
+10021,A0425,"Ground mileage, per statute mile",APC_5001,BLS,Transport,J44.1,COPD Exacerbation
+10022,A0426,ALS assessment,APC_5002,ALS1,No Transport,I10,Hypertension
+10023,A0427,"ALS, emergency transport",APC_5002,ALS1,Emergency,I21.9,Heart Attack
+10024,A0428,"BLS, non-emergency",APC_5001,BLS,Non-Emergency,J44.1,COPD Exacerbation
+10025,A0429,"BLS, emergency transport",APC_5001,BLS,Emergency,I10,Hypertension
+10026,A0430,Fixed-wing air ambulance,APC_5061,SCT,Emergency,R55,Syncope
+10027,A0431,Rotary-wing air ambulance,APC_5061,SCT,Emergency,I21.9,Heart Attack
+10028,A0432,Paramedic intercept (PI) service,APC_5002,PI,No Transport,J44.1,COPD Exacerbation
+10029,A0433,ALS 2 emergency transport,APC_5002,ALS2,Emergency,I10,Hypertension
+10030,A0434,Specialty care transport,APC_5061,SCT,Emergency,R55,Syncope
+10031,A0425,"Ground mileage, per statute mile",APC_5001,BLS,Transport,I21.9,Heart Attack
+10032,A0426,ALS assessment,APC_5002,ALS1,No Transport,J44.1,COPD Exacerbation
+10033,A0427,"ALS, emergency transport",APC_5002,ALS1,Emergency,I10,Hypertension
+10034,A0428,"BLS, non-emergency",APC_5001,BLS,Non-Emergency,R55,Syncope
+10035,A0429,"BLS, emergency transport",APC_5001,BLS,Emergency,I21.9,Heart Attack
+10036,A0430,Fixed-wing air ambulance,APC_5061,SCT,Emergency,J44.1,COPD Exacerbation
+10037,A0431,Rotary-wing air ambulance,APC_5061,SCT,Emergency,I10,Hypertension
+10038,A0432,Paramedic intercept (PI) service,APC_5002,PI,No Transport,R55,Syncope
+10039,A0433,ALS 2 emergency transport,APC_5002,ALS2,Emergency,I21.9,Heart Attack
+10040,A0434,Specialty care transport,APC_5061,SCT,Emergency,J44.1,COPD Exacerbation
