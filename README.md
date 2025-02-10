@@ -17,7 +17,7 @@ Transport Time → Time from OnScene → HospitalArrival.
 Incident Density Mapping → EMS call locations by latitude/longitude.
 Service Level Analysis → Mapping ICD-10 codes to EMS transport type.
 
-💰 Financial Metrics:
+Financial Metrics:
 Reimbursement Trends by Payer Type (Medicare, Medicaid, Private, Self-Pay).
 Total Reimbursement by Month → Identifies fluctuations in EMS billing.
 APC Group Analysis → Connects ICD-10 codes to reimbursement patterns.
