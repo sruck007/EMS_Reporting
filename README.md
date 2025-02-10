@@ -11,19 +11,13 @@ Used SQL joins to integrate datasets, ensuring accuracy & completeness.
 Pre-processed timestamps for calculating response & transport times.
 
 2️. KPI Analysis & Performance Metrics (SQL)
- **Operational Metrics
 Average Response Time → Time from CallReceived → OnScene.
 Transport Time → Time from OnScene → HospitalArrival.
 Incident Density Mapping → EMS call locations by latitude/longitude.
 Service Level Analysis → Mapping ICD-10 codes to EMS transport type.
 
- 
- **Financial Metrics:
-Reimbursement Trends by Payer Type (Medicare, Medicaid, Private, Self-Pay).
-Total Reimbursement by Month → Identifies fluctuations in EMS billing.
-APC Group Analysis → Connects ICD-10 codes to reimbursement patterns.
 
-3️. SQL Queries for KPI & Trend Analysis
+3️. In depth KPI & Trend Analysis (SQL)
 Response vs. Transport Time by Zone (Identifies high-delay areas).
 Reimbursement Trends Over Time (Monthly revenue trends).
 Incident Type by Transport Level (Heat map of service utilization).
