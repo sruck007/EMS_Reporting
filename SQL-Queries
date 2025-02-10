@@ -1,11 +1,13 @@
 1️⃣ Insurance Mix Reimbursement (Pie Chart)
 ## This query groups insurance payers and calculates total reimbursements. This is useful for understanding payer distribution and identifying revenue sources
-```SELECT 
+```sql
+SELECT 
     PayerType, 
     SUM(AmountReimbursed) AS TotalReimbursement
 FROM Payer_Reimbursement_Data
 GROUP BY PayerType
-ORDER BY TotalReimbursement DESC;```
+ORDER BY TotalReimbursement DESC;
+```
 
 2️⃣ Yearly Insurance Reimbursement Trends (Line Chart)
 ##This query breaks down yearly reimbursements by month and payer type, helping EMS leadership track financial trends and seasonal variations.
