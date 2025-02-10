@@ -23,6 +23,7 @@ Reimbursement Trends Over Time (Monthly revenue trends).
 Incident Type by Transport Level (Heat map of service utilization).
 Geospatial Analysis of EMS Responses (Incident density visualization).
 
+
 4. Interactive Tableau Dashboard
 Pie Chart: Insurance Mix Reimbursement (Medicare, Medicaid, Private, Self-Pay).
 Line Chart: Yearly Insurance Reimbursement Trends (by payer type).
