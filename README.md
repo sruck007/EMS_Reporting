@@ -11,13 +11,13 @@ Used SQL joins to integrate datasets, ensuring accuracy & completeness.
 Pre-processed timestamps for calculating response & transport times.
 
 2️. KPI Analysis & Performance Metrics (SQL)
- Operational Metrics :
+ -Operational Metrics
 Average Response Time → Time from CallReceived → OnScene.
 Transport Time → Time from OnScene → HospitalArrival.
 Incident Density Mapping → EMS call locations by latitude/longitude.
 Service Level Analysis → Mapping ICD-10 codes to EMS transport type.
 
- Financial Metrics:
+ -Financial Metrics:
 Reimbursement Trends by Payer Type (Medicare, Medicaid, Private, Self-Pay).
 Total Reimbursement by Month → Identifies fluctuations in EMS billing.
 APC Group Analysis → Connects ICD-10 codes to reimbursement patterns.
@@ -51,7 +51,6 @@ Certain ICD-10 conditions (e.g., Heart Attacks, Hypertension) require ALS-level 
 
 Private insurance contributes the highest revenue pecentage (32.87%), followed by Medicaid (25.30%).
 Reimbursement trends fluctuate seasonally, with spikes in November & January.
-ICD-10 codes linked to higher-level procedures generate higher reimbursement rates.
 
 ![image](https://github.com/user-attachments/assets/50cb274e-cec2-4408-aa3e-fc6fcbea3b51)
 
