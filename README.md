@@ -5,26 +5,19 @@ This project analyzes Emergency Medical Services (EMS) operations, focusing on r
 Key Sections & Approach
 
   1️. Data Collection & Cleaning (Python & SQL)
-Structured and cleaned each dataset with pandas: EMS incident data, payer reimbursement data, and ICD-10/APC mappings.
+Structured and cleaned each dataset with pandas in Jupyter Notebook:
 Loaded to SQL Database for centralized reporting
 Used SQL joins to integrate datasets, ensuring accuracy & completeness.
 Pre-processed timestamps for calculating response & transport times.
 
-  2️. KPI Analysis & Performance Metrics (SQL)
+  2. KPI Analysis & Performance Metrics (SQL)
 Average Response Time → Time from CallReceived → OnScene.
 Transport Time → Time from OnScene → HospitalArrival.
 Incident Density Mapping → EMS call locations by latitude/longitude.
 Service Level Analysis → Mapping ICD-10 codes to EMS transport type.
 
 
-  3️. In depth KPI & Trend Analysis (SQL)
-Response vs. Transport Time by Zone (Identifies high-delay areas).
-Reimbursement Trends Over Time (Monthly revenue trends).
-Incident Type by Transport Level (Heat map of service utilization).
-Geospatial Analysis of EMS Responses (Incident density visualization).
-
-
-  4. Interactive Tableau Dashboard
+  3. Interactive Tableau Dashboard
 Pie Chart: Insurance Mix Reimbursement (Medicare, Medicaid, Private, Self-Pay).
 Line Chart: Yearly Insurance Reimbursement Trends (by payer type).
 Heat Map: Level of Service Analysis (Transport Type vs. ICD-10 Conditions).
