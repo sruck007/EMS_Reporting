@@ -5,6 +5,6 @@ Data was structured to support easy SQL queries and visual analysis.
 Dataset	Description
 EMS_Incident_Data.csv	Incident timestamps, transport type, and service level. 
 Payer_Reimbursement_Data.csv	Financial reimbursement details by payer.
-APC_DX_Mapping.csv	Maps ICD-10 codes to APC classifications.
+APC_DX_Mapping.csv	Maps ICD-10 codes to Level of Service and repsonse classifications.
  **See EMS_Datasets
 
