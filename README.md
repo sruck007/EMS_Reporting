@@ -2,22 +2,22 @@
 📌 Project Overview
 This project analyzes Emergency Medical Services (EMS) operations, focusing on response efficiency, financial performance, and other key metrucs. Using SQL, Python, and Tableau, the analysis provides data-driven insights into key performance indicators (KPIs) such as response times, transport times, reimbursement trends, and service utilization. The goal of this projecy is to simulate how EMS data can be used to optimize resources, improve service delivery, and ultimelty help leaders make informed decisons in an emergency response enviorment. 
 
-Key Sections & Approach
+**Key Sections & Structure 
 
-  1️. Data Collection & Cleaning (Python & SQL)
+1️. Data Collection & Cleaning (Python & SQL)
 Structured and cleaned each dataset with pandas in Jupyter Notebook:
 Loaded to SQL Database for centralized reporting
 Used SQL joins to integrate datasets, ensuring accuracy & completeness.
 Pre-processed timestamps for calculating response & transport times.
 
-  2. KPI Analysis & Performance Metrics (SQL)
+2. KPI Analysis & Performance Metrics (SQL)
 Average Response Time → Time from CallReceived → OnScene.
 Transport Time → Time from OnScene → HospitalArrival.
 Incident Density Mapping → EMS call locations by latitude/longitude.
 Service Level Analysis → Mapping ICD-10 codes to EMS transport type.
 
 
-  3. Interactive Tableau Dashboard
+3. Interactive Tableau Dashboard
 Pie Chart: Insurance Mix Reimbursement (Medicare, Medicaid, Private, Self-Pay).
 Line Chart: Yearly Insurance Reimbursement Trends (by payer type).
 Heat Map: Level of Service Analysis (Transport Type vs. ICD-10 Conditions).
