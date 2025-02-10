@@ -5,11 +5,12 @@ This project analyzes Emergency Medical Services (EMS) operations, focusing on r
 Key Sections & Approach
 
 1️. Data Collection & Cleaning (Python & SQL)
-Structured EMS incident data, payer reimbursement data, and ICD-10/APC mappings.
+Structured and cleaned each dataset with pandas: EMS incident data, payer reimbursement data, and ICD-10/APC mappings.
+Loaded to SQL Database for centralized reporting
 Used SQL joins to integrate datasets, ensuring accuracy & completeness.
 Pre-processed timestamps for calculating response & transport times.
 
-2️. KPI Analysis & Performance Metrics (SQL & Python)
+2️. KPI Analysis & Performance Metrics (SQL)
 📊 Operational Metrics:
 Average Response Time → Time from CallReceived → OnScene.
 Transport Time → Time from OnScene → HospitalArrival.
@@ -43,13 +44,12 @@ Tableau → Created interactive dashboard for EMS insights.
 🔍 Findings & Key Insights
 🚑 Operational Takeaways:
 
-West Zone has the longest transport times, suggesting potential resource inefficiencies.
-Emergency response times vary significantly by zone, with North responding fastest.
-Certain ICD-10 conditions (e.g., Heart Attacks, COPD) require ALS-level transport most frequently.
+North Zone has the longest average transport times, suggesting potential resource inefficiencies.
+Certain ICD-10 conditions (e.g., Heart Attacks, Hypertension) require ALS-level transport most frequently.
 
 💰 Financial Takeaways:
 
-Private insurance contributes the highest revenue (32.87%), followed by Medicaid (25.30%).
+Private insurance contributes the highest revenue pecentage (32.87%), followed by Medicaid (25.30%).
 Reimbursement trends fluctuate seasonally, with spikes in November & January.
 ICD-10 codes linked to higher-level procedures generate higher reimbursement rates.
 
