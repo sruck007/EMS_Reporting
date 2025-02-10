@@ -8,3 +8,6 @@ Payer_Reimbursement_Data.csv	Financial reimbursement details by payer.
 APC_DX_Mapping.csv	Maps ICD-10 codes to APC classifications.
 
 Dataset Links:
+"C:\Users\rucke\Downloads\EMS_Datasets\EMS_Incident_Data.csv"
+"C:\Users\rucke\Downloads\EMS_Datasets\Payer_Reimbursement_Data.csv"
+"C:\Users\rucke\Downloads\EMS_Datasets\APC_DX_Mapping_Stats.csv"
