@@ -23,7 +23,7 @@ Geo Map: Incident Location Response Mapping (Coordinates of EMS incidents).
 
 
 🛠️ Methodology & Technologies Used
-Python (Pandas, sqlalchemy ) → Data cleaning, laoding to SQL & exploratory analysis
+Python (Pandas, sqlalchemy ) → Data cleaning, loaded to SQL & performed exploratory analysis
 SQL → Used for advanced queries, joins, KPI calculations
 Tableau → Created interactive dashboard for EMS insights.
 
