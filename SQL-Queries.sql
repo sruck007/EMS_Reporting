@@ -1,5 +1,5 @@
 1. Insurance Mix Reimbursement (Pie Chart)
-** This query groups insurance payers and calculates total reimbursements. This is useful for understanding payer distribution and identifying revenue sources
+** This query groups insurance payers & calculates total reimbursements. Useful for understanding payer distribution, identifying revenue sources
 
 SELECT 
     PayerType, 
@@ -45,7 +45,7 @@ GROUP BY Zone
 ORDER BY AvgTransportTime DESC;
 
 5. Incident Location Response (Mapping)
-**"This query extracts latitude and longitude from EMS reports, allowing us to visualize incident hotspots and response distribution across the city
+**This query extracts latitude and longitude from EMS reports, allowing us to visualize incident hotspots and response distribution across the city
 SELECT 
     IncidentID, 
     Zone,
